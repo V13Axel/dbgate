@@ -1,40 +1,47 @@
 {
-  "name": "dbgate-plugin-one-dark-theme",
-  "version": "1.1.6",
-  "description": "One Dark theme for dbgate. ![icon](https://raw.githubusercontent.com/DevBlooming/dbgate-plugin-one-dark-theme/main/icon.png)",
-  "scripts": {
-    "build": "webpack --config webpack.config",
-    "plugin": "yarn build && yarn pack && dbgate-plugin dbgate-plugin-one-dark-theme",
-    "monitor": "nodemon --watch src --exec yarn plugin",
-    "plugout": "dbgate-plugout dbgate-plugin-one-dark-theme",
-    "prepublishOnly": "yarn build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DevBlooming/dbgate-plugin-one-dark-theme.git"
-  },
-  "keywords": [
-    "dbgate",
-    "dbgateplugin",
-    "dbgatetheme",
-    "theme",
-    "one-dark"
-  ],
-  "files": [
-    "dist",
-    "icon.png"
-  ],
-  "author": "DevBlooming",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DevBlooming/dbgate-plugin-one-dark-theme/issues"
-  },
-  "homepage": "https://github.com/DevBlooming/dbgate-plugin-one-dark-theme#readme",
-  "dependencies": {
-    "dbgate-plugin-tools": "^1.0.8",
-    "dbgate-tools": "^5.2.5",
-    "nodemon": "^2.0.22",
-    "webpack": "^5.82.0",
-    "webpack-cli": "^5.0.2"
-  }
+    "name": "dbgate-plugin-catppuccin",
+    "type": "module",
+    "version": "1.1.6",
+    "description": "One Dark theme for dbgate. ![icon](https://raw.githubusercontent.com/V13Axel/dbgate-plugin-catppuccin/main/icon.png)",
+    "scripts": {
+        "build": "webpack",
+        "plugin": "npm run build & npm pack && dbgate-plugin dbgate-plugin-catppuccin",
+        "monitor": "nodemon --watch src --exec npm plugin",
+        "plugout": "dbgate-plugout dbgate-plugin-catppuccin",
+        "prepublishOnly": "npm build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/V13Axel/dbgate-plugin-catppuccin.git"
+    },
+    "keywords": [
+        "dbgate",
+        "dbgateplugin",
+        "dbgatetheme",
+        "theme",
+        "catppuccin"
+    ],
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "V13Axel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/V13Axel/dbgate-plugin-catppuccin/issues"
+    },
+    "homepage": "https://github.com/V13Axel/dbgate-plugin-catppuccin#readme",
+    "dependencies": {
+        "@catppuccin/palette": "^1.1.1",
+        "dbgate-plugin-tools": "^1.0.8",
+        "dbgate-tools": "^5.2.5",
+        "nodemon": "^2.0.22",
+        "webpack": "^5.82.0",
+        "webpack-cli": "^5.0.2"
+    },
+    "devDependencies": {
+        "css-loader": "^6.10.0",
+        "raw-loader": "^4.0.2",
+        "style-loader": "^3.3.4"
+    }
 }

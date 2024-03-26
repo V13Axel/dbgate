@@ -1,17 +1,29 @@
-var webpack = require("webpack");
-var path = require("path");
+import webpack from 'webpack';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-var config = {
-  context: __dirname + "/src",
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+export default {
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+  context: __dirname + '/src',
 
   entry: {
-    app: "./index.js",
+    app: './index.js',
   },
-  target: "web",
+  target: 'web',
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "frontend.js",
-    libraryTarget: "var",
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'frontend.js',
+    libraryTarget: 'var',
     library: 'plugin',
   },
 
@@ -20,5 +32,3 @@ var config = {
   //   minimize: false,
   // },
 };
-
-module.exports = config;
