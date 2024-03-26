@@ -1,31 +1,31 @@
-# name: '🚀 Publish NPM Package'
+name: '🚀 Publish NPM Package'
 
 # on:
 #   push:
 #     branches:
 #       - main
 
-# jobs:
-#   release:
-#     name: 🚀 publish
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: 📚 Checkout code
-#         uses: actions/checkout@v3
+jobs:
+  release:
+    name: 🚀 publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 Checkout code
+        uses: actions/checkout@v3
 
-#       - name: 🟢 Install Node.js
-#         uses: actions/setup-node@v3
-#         with:
-#           node-version: 18
-#           registry-url: https://registry.npmjs.org
+      - name: 🟢 Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: https://registry.npmjs.org
 
-#       - name: Install dependencies
-#         run: npm install
+      - name: Install dependencies
+        run: npm install
 
-#       - name: Build with Webpack
-#         run: npm run build
+      - name: Build with Webpack
+        run: npm run build
 
-#       - name: 🚀 Publish to NPM
-#         run: npm publish --access public
-#         env:
-#           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+      - name: 🚀 Publish to NPM
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
