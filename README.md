@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/dbgate/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/dbgate?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/dbgate/issues"><img src="https://img.shields.io/github/issues/catppuccin/dbgate?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/dbgate/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/dbgate?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/V13Axel/dbgate-plugin-catppuccin/stargazers"><img src="https://img.shields.io/github/stars/V13Axel/dbgate-plugin-catppuccin?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/V13Axel/dbgate-plugin-catppuccin/issues"><img src="https://img.shields.io/github/issues/V13Axel/dbgate-plugin-catppuccin?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/V13Axel/dbgate-plugin-catppuccin/contributors"><img src="https://img.shields.io/github/contributors/V13Axel/dbgate-plugin-catppuccin?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
