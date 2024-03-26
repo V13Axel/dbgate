@@ -36,10 +36,10 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+1. Open the "Extensions" tab in DbGate.
+2. Search for "Catppuccin".
+3. Choose this plugin and click "Install".
+4. Go to "View->change" theme and select your favorite theme.
 
 ## 💝 Thanks to
 
